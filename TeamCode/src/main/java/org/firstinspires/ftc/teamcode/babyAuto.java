@@ -2,13 +2,21 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
+import com.qualcomm.robotcore.hardware.CRServo;
+import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.Servo;
+
 
 @Autonomous(name="babyAuto")
 public class babyAuto extends OpMode {
+
     @Override
     public void init() {
-
+        //Definitions
+        babyhwmap robot=new babyhwmap();
+        //Definitions
         //drive to basket
+
         //place block
 
         //drive to block 1
